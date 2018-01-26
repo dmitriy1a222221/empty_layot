@@ -1,0 +1,405 @@
+
+/*...........header.................*/
+.header_wrapp {
+    width: 100%;
+    background: #cccccc;
+    border-bottom: 1px solid #6e6e6e;
+}
+.header {
+    width: 100%;
+    max-width: 618px;
+    margin: 0 auto;
+    height: 50px;
+    background: #cccccc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    font-family: sans-serif;
+    font-size: 1.875em;
+    /* display: inline-block; */
+    margin: 0;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: /*169px*/ 27.3462783171521%;
+    height: 65px;
+    background: #656565;
+    border-radius: 3px;
+    margin-left: 4.530744336569579%;
+    margin-top: 6px;
+    z-index: 1;
+}
+header input{
+    display: none;
+}
+.responsive-menu {
+    display: none;
+}
+#navigation {
+    display: flex;
+    align-items: flex-end;
+}
+.navigation__ul {
+    margin: 0 0 3px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-item + .navigation-item {
+    margin-left: 8px;
+}
+.navigation__ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 0.75em;
+}
+
+/*...................main.................*/
+
+.main_wrapp {
+    width: 100%;
+    height: 232px;
+    background: #262626;
+}
+.main_wrapp main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 618px;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+
+.main__content p {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 0;
+}
+.main__content p:nth-child(2) {
+    margin: 25px 0 18px;
+}
+.but-wrapp {
+    width: 78.77295966672979%;
+    display: flex;
+    justify-content: space-around;
+}
+.but-wrapp button {
+    width: /*87px*/ 41.82692307692308%;
+    height: 30px;
+    border: none;
+    background: #666666;
+    border-color: #666666;
+    border-radius: 3px;
+}
+.but-wrapp button:active{opacity: 0.7;}
+.but-wrapp button:hover{cursor: pointer;}
+
+.main__image {
+    max-width: 100%;
+    height:auto;
+}
+/*..................end__main.................*/
+/*...................lines............................*/
+
+.lines_wrapp {
+    width: 100%;
+    height: 112px;
+    background: #efefef;
+}
+.lines {
+    width: 100%;
+    height: 100%;
+    max-width: 618px;
+    margin: 0 auto;
+    padding-top: 27px;
+    border-bottom: 1px solid #d3d3d3;
+    position: relative;
+}
+.lines::after {
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    top: 112px;
+    content: '';
+    display: block;
+    background: #6c6c6c;
+}
+.lines__ul li {
+    display: block;
+}
+.lines__ul li:nth-child(1) {
+    width: 24.11003236245955%;
+    height: 15px;
+    background: #666666;
+    margin: 0 auto;
+    border-bottom: 1px solid #929292;
+}
+.lines__ul li:nth-child(2) {
+    width: 87.05501618122977%;
+    height: 5px;
+    background: #666666;
+    margin: 7px auto 6px;
+    border-top: 1px solid #929292;
+}
+.lines__ul li:nth-child(3) {
+    width: 100%;
+    height: 5px;
+    background: #666666;
+    margin: 0 auto;
+    border-top: 1px solid #929292;
+    border-bottom: 1px solid #929292;
+}
+.lines__ul li:nth-child(4) {
+    width: 92.71844660194175%;
+    height: 5px;
+    background: #666666;
+    margin: 7px auto 6px;
+    border-top: 1px solid #929292;
+    border-bottom: 1px solid #929292;
+}
+.lines__ul li:nth-child(5) {
+    width: 62.7831715210356%;
+    height: 4px;
+    background: #666666;
+    margin: 0 auto;
+    border-top: 1px solid #929292;
+    border-bottom: 1px solid #929292;
+}
+/*...................end__lines............................*/
+/*.......................slider............................*/
+.slider_wrapp {
+    width: 100%;
+    height: 100%;
+    background: #efefef;
+}
+.slidr-wrapp-arrows {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.slider {
+    width: 100%;
+    max-width: 618px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 35px;
+}
+.slider input {
+    display: none;
+}
+/*.................murkup slides..............*/
+#slides_wrapp {
+    width: 87.37864077669903%;
+    margin: 0 auto;
+}
+#overflow {
+    width: 100%;
+    overflow: hidden;
+}
+#slides {
+    width: 312%;
+    display: flex;
+    justify-content: space-between;
+    transition: all ease .8s;
+}
+.slides__item {
+    width: 98px;
+    margin-top: 2px;
+}
+.slides__item img {
+    -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 2px #dfdfdf;
+    box-shadow: 0 0 0 1px #fff, 0 0 0 2px #dfdfdf;
+}
+.slides__item p {
+    text-align:  center;
+    color: #020202;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+/*.............end...murkup slides............*/
+
+/*.............murkup dishes..................*/
+#dishes label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #8b8b8b;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+#dishes label:hover {
+    background: #b1b1b1;
+    cursor: pointer;
+}
+
+
+#swich1:checked ~ #dishes label:nth-child(1),
+#swich2:checked ~ #dishes label:nth-child(2),
+#swich3:checked ~ #dishes label:nth-child(3) {
+    background: #b1b1b1;
+}
+#swich1:checked ~ #slides_wrapp #overflow #slides {
+    margin-left: 0;
+}
+#swich2:checked ~ #slides_wrapp #overflow #slides {
+    margin-left: -106%;
+}
+#swich3:checked ~ #slides_wrapp #overflow #slides {
+    margin-left: -212%;
+}
+/*.............end murkup dishes..................*/
+
+
+/*..............for arrows left..........*/
+#arrows-left label:nth-child(1) .wrapp_arrows-left {
+    z-index: 0;
+}
+#arrows-left label:nth-child(2) .wrapp_arrows-left {
+    z-index: 1;
+}
+#arrows-left label:nth-child(3) .wrapp_arrows-left {
+    z-index: 2;
+}
+
+#swich1:checked ~ #arrows-left label:nth-child(3) .wrapp_arrows-left{
+    z-index: 3;
+}
+#swich2:checked ~ #arrows-left label:nth-child(1) .wrapp_arrows-left{
+    z-index: 3;
+}
+#swich3:checked ~ #arrows-left label:nth-child(2) .wrapp_arrows-left{
+    z-index: 3    ;
+}
+
+.wrapp_arrows-left {
+    position: absolute;
+    top: 75px;
+    left: 0;
+    display: inline-block;
+    width: 29px;
+    height: 20px;
+}
+
+
+#parallelogram {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+	width: 6px;
+	height: 10px;
+	-webkit-transform: skew(45deg);
+	   -moz-transform: skew(45deg);
+	     -o-transform: skew(45deg);
+	background: #6f6f6f;
+    display: inline-block;
+}
+#parallelogram2 {
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    content: '';
+	width: 6px;
+	height: 10px;
+	-webkit-transform: skew(-45deg);
+	   -moz-transform: skew(-45deg);
+	     -o-transform: skew(-45deg);
+	background: #6f6f6f;
+        display: inline-block;
+}
+.line_bold1 {
+    position: absolute;
+    top: 8px;
+    left: 6px;
+    width: 23px;
+    height: 4px;
+    background: #6f6f6f;
+    display: inline-block;
+}
+
+/*..............end for arrows left..........*/
+
+/*..............for arrows right..........*/
+#arrows-right label:nth-child(1) .wrapp_arrows-right {
+    z-index: 0;
+}
+#arrows-right label:nth-child(2) .wrapp_arrows-right {
+    z-index: 1;
+}
+#arrows-right label:nth-child(3) .wrapp_arrows-right {
+    z-index: 2;
+}
+
+#swich1:checked ~ #arrows-right label:nth-child(2) .wrapp_arrows-right {
+    z-index: 3;
+}
+#swich2:checked ~ #arrows-right label:nth-child(3) .wrapp_arrows-right {
+    z-index: 3;
+}
+#swich3:checked ~ #arrows-right label:nth-child(1) .wrapp_arrows-right {
+    z-index: 3;
+}
+
+.wrapp_arrows-right {
+    position: absolute;
+    top: 75px;
+    right: 0;
+    display: inline-block;
+    width: 29px;
+    height: 20px;
+    /* position: relative; */
+
+}
+#parallelogram3 {
+    position: absolute;
+    top: 0px;
+    left: 18px;
+	width: 6px;
+	height: 10px;
+	-webkit-transform: skew(45deg);
+	   -moz-transform: skew(45deg);
+	     -o-transform: skew(45deg);
+	background: #6f6f6f;
+    display: inline-block;
+}
+#parallelogram4 {
+    position: absolute;
+    top: 10px;
+    left: 18px;
+    content: '';
+	width: 6px;
+	height: 10px;
+	-webkit-transform: skew(-45deg);
+	   -moz-transform: skew(-45deg);
+	     -o-transform: skew(-45deg);
+	background: #6f6f6f;
+        display: inline-block;
+}
+.line_bold2 {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 23px;
+    height: 4px;
+    background: #6f6f6f;
+    display: inline-block;
+}
+.wrapp_arrows-right:hover,
+.wrapp_arrows-left:hover {
+    cursor: pointer;
+}
+/*..............end for arrows right..........*/
+/*.......................end slider............................*/
